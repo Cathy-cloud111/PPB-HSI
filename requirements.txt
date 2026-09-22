@@ -1,0 +1,12 @@
+# Core environment used for the reported experiments (Python 3.10).
+# Install a platform-appropriate PyTorch wheel first when necessary.
+numpy==2.2.6
+scipy==1.15.3
+torch==2.5.1
+tqdm>=4.66,<5
+
+# Classification-map generation.
+pillow>=10,<12
+
+# Test runner.
+pytest>=8,<9

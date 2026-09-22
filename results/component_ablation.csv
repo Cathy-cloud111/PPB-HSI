@@ -1,0 +1,15 @@
+dataset,configuration,multi_prototype,ipoc,kd,capacity,oa,base_oa,current_oa,forgetting
+Houston2013,ER,0,0,0,none,80.92,84.74,82.19,6.33
+Houston2013,KD,0,0,1,none,81.01,84.67,83.05,6.40
+Houston2013,MP,1,0,0,adaptive,81.00,85.51,82.19,5.62
+Houston2013,MP_KD,1,0,1,adaptive,81.11,85.46,83.05,5.67
+Houston2013,MP_IPOC,1,1,0,adaptive,80.99,85.47,82.12,5.65
+Houston2013,Full,1,1,1,adaptive,81.13,85.45,82.99,5.68
+Houston2013,Fixed_Full,1,1,1,fixed,81.13,85.46,82.99,5.67
+PaviaU,ER,0,0,0,none,54.08,60.39,46.00,19.70
+PaviaU,KD,0,0,1,none,54.08,60.37,46.21,19.72
+PaviaU,MP,1,0,0,adaptive,53.79,60.69,41.52,19.37
+PaviaU,MP_KD,1,0,1,adaptive,53.85,60.74,41.87,19.32
+PaviaU,MP_IPOC,1,1,0,adaptive,53.85,60.74,41.71,19.32
+PaviaU,Full,1,1,1,adaptive,53.91,60.79,42.03,19.27
+PaviaU,Fixed_Full,1,1,1,fixed,53.91,60.79,42.03,19.28

@@ -1,0 +1,9 @@
+protocol,dataset,eta,lme_minus_lse_oa,lme_minus_lse_base,lme_minus_lse_current
+capacity_grid,Houston2013,0.03,0.003,0.004,0.000
+capacity_grid,Houston2013,0.10,0.036,0.091,0.100
+capacity_grid,Houston2013,0.20,0.066,0.124,0.332
+capacity_grid,PaviaU,0.03,0.424,0.631,0.000
+capacity_grid,PaviaU,0.10,1.029,1.638,0.010
+capacity_grid,PaviaU,0.20,0.367,0.685,0.136
+fixed_total_memory,Houston2013,0.03,0.003,0.008,0.000
+fixed_total_memory,PaviaU,0.03,0.000,0.000,0.000

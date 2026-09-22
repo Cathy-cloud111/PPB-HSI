@@ -1,0 +1,14 @@
+name: prototype-pooling
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.5.1
+  - pytorch-cuda=12.4
+  - numpy=2.2.6
+  - scipy=1.15.3
+  - tqdm
+  - pillow
+  - pytest

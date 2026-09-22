@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and editors
+.venv/
+venv/
+env/
+.conda/
+.idea/
+.vscode/
+*.code-workspace
+
+# Raw datasets and generated splits
+data/
+*.mat
+*.h5
+*.hdf5
+
+# Checkpoints and training artifacts
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*_outputs/
+outputs/
+checkpoints/
+runs/
+wandb/
+tensorboard/
+*.log
+
+# Local plans, locks and caches
+.queue.lock
+queue_status.json
+study_plan.json
+plan.json
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
